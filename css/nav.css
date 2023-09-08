@@ -1,0 +1,17 @@
+.nav-at {
+  background-color: #0c74d4;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 40px;
+  margin-bottom: 12rem;
+}
+.nav-at h1 {
+  font-family: arial;
+  margin-bottom: 2px;
+}
+
+.nav-at img {
+  margin: auto;
+}

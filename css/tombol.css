@@ -1,0 +1,22 @@
+a.button {
+  display: block;
+  margin: auto;
+  width: 95px;
+  color: white;
+  font-family: arial;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5rem 1.2rem;
+  background-color: #0c74d4;
+  border-radius: 40px;
+  transition: 0.5s;
+  border: 3px solid white;
+  margin-top: 12rem;
+  margin-bottom: 1.5rem;
+}
+
+a.button:hover {
+  color: #0c74d4;
+  background-color: white;
+  border: 3px solid #0c74d4;
+}

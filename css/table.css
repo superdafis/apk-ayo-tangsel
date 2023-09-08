@@ -1,0 +1,23 @@
+table thead {
+  background-color: #0c74d4;
+}
+table {
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+table,
+thead,
+td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  border-spacing: 10px;
+}
+thead,
+td {
+  padding: 20px 20px;
+}

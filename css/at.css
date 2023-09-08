@@ -1,0 +1,35 @@
+@import url("nav.css");
+@import url("reset.css");
+@import url("table.css");
+@import url("tombol.css");
+@import url("loading.css");
+:root {
+  --blue: #0c74d4;
+  --gray: #545454;
+}
+.tombol {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15rem;
+}
+
+.tombol a {
+  width: 200px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border: 3px solid white;
+  background-color: var(--blue);
+  padding: 20px;
+  transition: 0.5s;
+  font-family: arial;
+}
+
+.tombol a:hover {
+  background-color: white;
+  border-color: var(--blue);
+  color: var(--blue);
+}
