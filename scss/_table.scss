@@ -1,0 +1,25 @@
+@use "color";
+@use "tombol";
+table {
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 6rem;
+  text-align: center;
+  thead {
+    background-color: color.$blue;
+  }
+  thead,
+  td {
+    padding: 20px 20px;
+  }
+}
+table,
+thead,
+td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  border-spacing: 10px;
+}

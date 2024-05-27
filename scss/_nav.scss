@@ -1,0 +1,67 @@
+@use "color";
+.nav-at {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: color.$blue;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  .navbar-brand {
+    font-family: arial;
+  }
+  ul:nth-of-type(1) {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      a {
+        color: white;
+        font-weight: 600;
+        font-size: 1.3rem;
+      }
+    }
+  }
+  ul:nth-of-type(2) {
+    display: none;
+  }
+  @media (max-width: 884px) {
+    ul:nth-of-type(1) {
+      display: none;
+    }
+    ul:nth-of-type(2) {
+      width: 30vw;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 1.2rem;
+      li {
+        a {
+          color: #f3f3f3;
+        }
+      }
+    }
+  }
+}
+
+header {
+  background-image: url(../img/tangerang-selatan.jpg);
+  height: 600px;
+  background-size: cover;
+  img.logo.tangsel {
+    width: 300px;
+    padding-top: 90px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (max-width: 600px) {
+    height: 540px;
+  }
+}
